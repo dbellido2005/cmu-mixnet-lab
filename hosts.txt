@@ -1,9 +1,11 @@
 # SAMPLE hosts.txt (replace each line with your instances' public DNS)
-ubuntu@ec2-54-204-71-101.compute-1.amazonaws.com
-ubuntu@ec2-34-202-235-5.compute-1.amazonaws.com
-ubuntu@ec2-54-87-147-167.compute-1.amazonaws.com
-ubuntu@ec2-54-152-165-8.compute-1.amazonaws.com
-ubuntu@ec2-23-23-32-167.compute-1.amazonaws.com
-ubuntu@ec2-3-87-100-154.compute-1.amazonaws.com
-ubuntu@ec2-44-220-149-1.compute-1.amazonaws.com
-ubuntu@ec2-54-242-107-133.compute-1.amazonaws.com
+ubuntu@ec2-18-201-200-39.eu-west-1.compute.amazonaws.com
+ubuntu@ec2-18-201-200-39.eu-west-1.compute.amazonaws.com
+ubuntu@ec2-3-249-140-62.eu-west-1.compute.amazonaws.com
+ubuntu@ec2-54-171-155-167.eu-west-1.compute.amazonaws.com
+ubuntu@ec2-18-200-243-243.eu-west-1.compute.amazonaws.com
+ubuntu@ec2-3-250-133-210.eu-west-1.compute.amazonaws.com
+ubuntu@ec2-3-253-132-41.eu-west-1.compute.amazonaws.com
+ubuntu@ec2-108-131-49-252.eu-west-1.compute.amazonaws.com
+
+
