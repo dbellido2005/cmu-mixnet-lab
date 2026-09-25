@@ -699,7 +699,8 @@ void run_node(void *const handle,
                                 assert(gettimeofday(ping_time, NULL) == 0);
                                 time_t curr_time = (ping_time->tv_sec * 1000) + (ping_time->tv_usec / 1000);
                                 time_t RTT = curr_time - ping_payload->send_time;
-                                printf("RTT to %i: %i ms", routing_header->dst_address, RTT);
+                                printf("RTT to %u: %lld ms\n", routing_header->src_address, (long long)RTT);
+                                fflush(stdout);
                                 if (print_flag)
                                 {
                                     dlog(c, "[PING] received reply from src=%u, RTT: %lld ms", routing_header->src_address, (long long)RTT);
